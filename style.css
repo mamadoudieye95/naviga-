@@ -1,39 +1,86 @@
-body{
-    background-color: rgb(53, 53, 54);
-}
-nav{
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    font-size: 25px;
-    color: honeydew;
-}
-ul{
-    display: flex;
-}
-li{
-    display: flex;
-    margin: 10px;
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #333, #4d4c4c);
+      color: #fff;
+    }
 
-}
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 80px;
+      background: transparent;
+    }
 
-div{
-    width: 300px;
-    margin: 3px;
-    border: 2px solid blueviolet;
-}
-img{
-    width: 92px;
-    margin: 2px;
-    padding: 2px;
-}
-section{
-    height: 75vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-   
-}
-body{
-    background-color: aquamarine;
-}
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: normal;
+ }
+
+    nav a.active {
+      font-weight: bold;
+      border-bottom: 2px solid #fff;
+    }
+
+    .cards-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 40px 20px;
+      gap: 50px;
+    }
+
+    .card {
+      background-color: #fff;
+      color: #000;
+      width: 300px;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+    }
+
+    .card-image {
+      background-color: #ccc;
+      height: 180px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+font-weight: bold;
+      font-size: 24px;
+      color: #666;
+      
+      
+    }
+
+    .card-content {
+      padding: 20px;
+      font-size: 14px;
+    }
+
+    .card-button {
+      margin: 0 15px 15px;
+      padding: 10px;
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .card-button:hover {
+      background-color: #070101ee;
+      }
