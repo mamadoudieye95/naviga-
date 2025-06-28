@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(53, 53, 54);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 25px;
+    color: honeydew;
+}
+ul{
+    display: flex;
+}
+li{
+    display: flex;
+    margin: 10px;
+
+}
+
+div{
+    width: 300px;
+    margin: 3px;
+    border: 2px solid blueviolet;
+}
+img{
+    width: 92px;
+    margin: 2px;
+    padding: 2px;
+}
+section{
+    height: 75vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+body{
+    background-color: aquamarine;
+}
